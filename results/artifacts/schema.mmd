@@ -1,0 +1,11 @@
+erDiagram
+    customers {
+        INTEGER id
+        VARCHAR(255) email
+    }
+    orders {
+        INTEGER id
+        INTEGER customer_id
+        DECIMAL(10,2) total
+    }
+    customers ||--o{ orders : "id to customer_id"

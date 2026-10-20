@@ -1,0 +1,3 @@
+$ python src/schema_to_mermaid.py sample/schema.sql --output outputs/schema.mmd --html outputs/schema.html
+(completed; no standard output)
+

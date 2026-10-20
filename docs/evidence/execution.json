@@ -1,0 +1,33 @@
+{
+  "id": "009",
+  "status": "executed",
+  "commands": [
+    "python src/schema_to_mermaid.py sample/schema.sql --output outputs/schema.mmd --html outputs/schema.html"
+  ],
+  "elapsed_seconds": 1.66,
+  "python": "3.13.5",
+  "inputs": [
+    {
+      "file": "sample/schema.sql",
+      "sha256": "7ba7c41134dfc27d3ab4f3402c3a9940ce6f8e194eac50d217639bc180c2c662"
+    }
+  ],
+  "output_artifacts": [
+    {
+      "file": "results/execution.txt",
+      "sha256": "4a55497d91929d99e28d7a10e44079f858d3faf05e56a18caf5a1a89e3ef4e2f",
+      "bytes": 140
+    },
+    {
+      "file": "results/artifacts/schema.html",
+      "sha256": "7ade52af01ae8fce6e8af6880f4e1f920f1b6ad1ecb979ef0dbddd64f9e3a12d",
+      "bytes": 483
+    },
+    {
+      "file": "results/artifacts/schema.mmd",
+      "sha256": "0a321dea90529b916e038a32abc1a641048de9a9d816bae520a1e20d3fee7f82",
+      "bytes": 221
+    }
+  ],
+  "observations": "Local execution using bundled fixtures; not an external performance evaluation."
+}

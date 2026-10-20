@@ -1,0 +1,31 @@
+{
+  "project_id": 9,
+  "repo_name": "009-database-schema-visualizer",
+  "title": "Database Schema Visualizer",
+  "theme": "Data Foundations & Engineering",
+  "theme_id": "T01",
+  "level": 1,
+  "level_label": "Foundations",
+  "prototype_status": "research prototype",
+  "primary_description": "SQL-to-Mermaid ER diagrams",
+  "research_question_proposed": "How accurately can basic SQL schema definitions be translated into human-readable entity diagrams?",
+  "sample_files": [
+    "sample/schema.sql"
+  ],
+  "source_modules": [
+    "src/schema_to_mermaid.py"
+  ],
+  "commands_from_original_readme": [
+    "python src/schema_to_mermaid.py sample/schema.sql --output outputs/schema.mmd --html outputs/schema.html"
+  ],
+  "docs": [
+    "README.md",
+    "docs/RESEARCH.md",
+    "docs/ARCHITECTURE.md",
+    "docs/DEMO.md",
+    "docs/RESULTS.md"
+  ],
+  "source_origin": "github-level1-20-projects(1).zip",
+  "execution_status": "verified_local_execution",
+  "evidence": "results/execution.json"
+}
